@@ -8,5 +8,5 @@ A 64-bit version compiled for Linux is available for downloading [here.](https:/
 ## Installing and executing EXERMEST ##
 Download the zip file and unzip its content into a directory of your choice.  Add `[directory]/exermest/toolkit/DiagTK/Release` to the directory path in your favourite Linux shell.  Then, run the command `diagtk -generateCfgFile` which will create a configuration file.  An config-file with default name *cfgfile* will be generated.  The config-file contains a set of default parameters.  If you wish to change any of the parameters, simply use your favourite shell editor to change the default parameters.  To execute the EXERMEST workflow, run the command `diagtk -autorunEXERMEST [config-file]` where `[config-file]` is the name of the configuration file.  A user manual will be available soon.
 
-### Acknowledgement ###
+## Acknowledgement ##
 This research was supported by The Alan Turing Institute under the EPSRC, UK grant EP/N510129/1 and The Alan Turing Institute-Intel partnership,
